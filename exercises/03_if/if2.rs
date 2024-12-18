@@ -2,13 +2,17 @@
 fn picky_eater(food: &str) -> &str {
     if food == "strawberry" {
         "Yummy!"
+    } else if food == "literally anything" || food == "broccoli" || food == "gummy bears" {
+        "No thanks!"
     } else {
-        1
+        "I guess I can eat that."
     }
 }
 
 fn main() {
     // You can optionally experiment here.
+    // let food: &str = "strawberry";
+    // picky_eater(food);
 }
 
 // TODO: Read the tests to understand the desired behavior.
